@@ -6,5 +6,10 @@ namespace WindowsFormApp_Project
         {
             InitializeComponent();
         }
+
+        private void sayHello(object sender, EventArgs e)
+        {
+            theLabel.Text = "Hello";
+        }
     }
 }
