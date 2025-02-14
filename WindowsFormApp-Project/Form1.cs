@@ -9,7 +9,8 @@ namespace WindowsFormApp_Project
 
         private void sayHello(object sender, EventArgs e)
         {
-            theLabel.Text = "Hello";
+            theLabel.Text = "Hello From commit";
         }
+
     }
 }
